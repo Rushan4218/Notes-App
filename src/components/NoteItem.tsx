@@ -17,7 +17,7 @@ const NoteItem: React.FC<NoteItemProps> = ({ id, title }) => {
     return (
         <>
             {
-                title.toLowerCase().includes(value) && (
+                title.toLowerCase().includes(value.toLowerCase()) && (
                     <NavLink to={`/notes/${id}`}
                         className="bg-green-200 min-h-24 p-4 flex items-center justify-center text-green-950 rounded hover:cursor-pointer hover:bg-green-300 active:scale-90 duration-300"
                     >
