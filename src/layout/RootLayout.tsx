@@ -3,7 +3,7 @@ import logo from "../images/NotesAppLogo.png";
 
 const RootLayout = () => {
     return (
-        <div className="m-8">
+        <div className="my-8 mx-auto max-w-2xl">
             <header className="flex items-center justify-center gap-2">
                 <img
                     src={logo}

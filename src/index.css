@@ -15,11 +15,15 @@ body {
 }
 
 .input-box {
-    @apply bg-green-300 text-lg text-white rounded py-1 px-4 placeholder:text-white focus:placeholder:text-transparent focus:outline-none focus:border-green-100 focus:border-2 shadow-inner shadow-green-700; 
+    @apply bg-green-400 text-lg text-white rounded py-1 px-4 placeholder:text-green-200 focus:placeholder:text-transparent focus:outline-none focus:border-green-100 focus:border-2 shadow-inner shadow-green-700; 
 }
 .btn-primary {
-    @apply bg-green-400 text-lg px-4 py-1 rounded-md text-white font-bold hover:bg-green-500 duration-300 active:scale-90 active:shadow-none shadow-sm shadow-white;
+    @apply bg-green-500 text-lg px-4 py-1 rounded-md text-white font-bold hover:bg-green-600 duration-300 active:scale-90 active:shadow-none shadow-sm shadow-white;
 }
 .btn-secondary {
-    @apply bg-gray-100 text-lg px-4 py-1 rounded-md text-green-400 font-bold hover:bg-gray-200 duration-300 active:scale-90; 
+    @apply bg-gray-100 text-lg px-4 py-1 rounded-md text-green-400 font-bold hover:bg-gray-300 duration-300 active:scale-90; 
+}
+.btn-danger {
+    @apply bg-red-500 text-lg px-4 py-1 rounded-md text-white font-bold hover:bg-red-600 duration-300 active:scale-90 active:shadow-none shadow-sm shadow-white;
+    
 }
