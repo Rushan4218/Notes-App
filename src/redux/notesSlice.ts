@@ -7,8 +7,6 @@ export type notesListType = {
 }
 
 const getNotesList: string | null = localStorage.getItem("NOTESLIST");
-console.log(typeof(getNotesList));
-console.log(getNotesList);
 const notesSlice = createSlice({
     name: "notes",
     initialState: {
